@@ -84,6 +84,7 @@ button:active
         width: 150px;
         height: 70px;
         margin: 5px 5px;
+        background-color: #4f97e9;
     }
     button:active
     {
@@ -98,9 +99,9 @@ button:active
     button:hover
     {
         transition: width 150ms ease-in-out;
-        transition: 0.3s;
-        width: 150px;
-        color: black;
+        transition: 0.1s;
+        width: 155px;
+        color: white;
         background-color: #4f97e9;
     }
 }
