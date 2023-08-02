@@ -1,0 +1,110 @@
+body
+{
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+.container
+{
+    margin: 10% auto auto auto;
+    background-color: #dfdfdf;
+    width: 500px;
+    height: 400px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: black 3px 3px 0px;
+}
+.page
+{
+    background-color: #ffffff;
+    width: 500px;
+    height: 350px;
+    border-radius: 7px;
+}
+.buttons
+{
+    margin-top: 10px;
+}
+button
+{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 16px;
+    background-color: #4f97e9;
+    padding: 5px;
+    height: 40px;
+    border: 0px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: width 150ms ease-in-out;
+    transition: 0.3s;    
+    width: 70px;
+    line-height: 0;
+}
+button:hover
+{
+    transition: width 150ms ease-in-out;
+    transition: 0.3s;
+    width: 100px;
+    color: black;
+    background-color: #96c7ff;
+}
+button:active
+{
+    transition: width 150ms ease-in-out;
+    transition: 0.1s;
+    width: 80px;
+    height: 35px;
+    color: #ffffff;
+    background-color: #6da5e6;
+
+}
+@media screen  and (max-width: 1000px)
+{
+    .container
+    {
+        margin-top: 20%;
+    }
+}
+@media screen  and (max-width: 450px)
+{
+    .container
+    {
+        height: 530px;
+        margin-top: 35%;
+    }
+    button
+    {
+        font-size: 30px;
+        width: 150px;
+        height: 70px;
+        margin: 5px 5px;
+        background-color: #4f97e9;
+    }
+    button:active
+    {
+        transition: width 150ms ease-in-out;
+        transition: 0.1s;
+        width: 130px;
+        height: 65px;
+        color: #ffffff;
+        background-color: #6da5e6;
+
+    }
+    button:hover
+    {
+        transition: width 150ms ease-in-out;
+        transition: 0.1s;
+        width: 155px;
+        color: white;
+        background-color: #4f97e9;
+    }
+}
+
+
+/* Menu 1*/

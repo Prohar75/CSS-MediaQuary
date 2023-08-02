@@ -1,0 +1,63 @@
+body
+{
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+.container-4
+{
+   text-align: center;
+   margin: auto;
+}
+.blocks
+{
+    display: grid;
+    grid-template-areas:
+    'block-1 block-2 block-3 block-4';
+}
+.block
+{
+    background-color: #9b9b9b;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 30px;
+}
+.block-1
+{
+    grid-area: block-1;
+}
+.block-2
+{
+    grid-area: block-2;
+}
+.block-3
+{
+    grid-area: block-3;
+}
+.block-4
+{
+    grid-area: block-4;
+}
+@media screen and (max-width: 400px)
+{
+    .blocks
+    {
+        display: grid;
+        grid-template-areas:
+        'block-1 block-2'
+        'block-3 block-4';
+    }   
+}
+@media screen and (max-width: 300px)
+{
+    .blocks
+    {
+        display: grid;
+        grid-template-areas:
+        'block-1'
+        'block-2'
+        'block-3'
+        'block-4';
+    }   
+}
