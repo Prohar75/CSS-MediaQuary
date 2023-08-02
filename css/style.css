@@ -75,13 +75,32 @@ button:active
 {
     .container
     {
-        height: 500px;
+        height: 530px;
+        margin-top: 35%;
     }
     button
     {
         font-size: 30px;
         width: 150px;
-        height: 50px;
+        height: 70px;
         margin: 5px 5px;
+    }
+    button:active
+    {
+        transition: width 150ms ease-in-out;
+        transition: 0.1s;
+        width: 130px;
+        height: 65px;
+        color: #ffffff;
+        background-color: #6da5e6;
+
+    }
+    button:hover
+    {
+        transition: width 150ms ease-in-out;
+        transition: 0.3s;
+        width: 150px;
+        color: black;
+        background-color: #4f97e9;
     }
 }
