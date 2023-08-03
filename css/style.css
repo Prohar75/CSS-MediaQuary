@@ -25,6 +25,16 @@ body
     height: 350px;
     border-radius: 7px;
 }
+.screen::after 
+{
+    content: '';
+    background-color: #ccc;
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    cursor: ew-resize;
+}
 .buttons
 {
     margin-top: 10px;
